@@ -10,7 +10,7 @@ from data_base import SavesDataUsers, SavesDataStudents
 warnings.filterwarnings("ignore")
 from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent
-df = pd.read_csv(BASE_DIR / "dlya_modeli.csv")
+df = pd.read_csv(BASE_DIR / "data.csv")
 
 model = joblib.load(BASE_DIR / 'model_1.pkl')
 
