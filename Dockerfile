@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app.py .
 COPY data_base.py .
 COPY model_1.pkl .
-COPY dlya_modeli.csv .
+COPY data.csv .
 COPY website_data.db .
 
 
